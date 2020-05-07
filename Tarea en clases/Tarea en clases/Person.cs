@@ -7,9 +7,9 @@ namespace Tarea_en_clases
     [Serializable]
     class Person
     {
-        public string name { get; }
-        public string lastname { get; }
-        public int age { get; }
+        public string name { get; set; }
+        public string lastname { get; set; }
+        public int age { get; set; }
 
     }
 }
